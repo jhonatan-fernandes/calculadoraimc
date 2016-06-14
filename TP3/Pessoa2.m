@@ -1,15 +1,15 @@
 //
-//  ViewController.h
+//  Pessoa2.m
 //  TP3
 //
 //  Created by Jhonathan Santos on 6/7/16.
 //  Copyright © 2016 Jhonathan Santos. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
+#import "Pessoa2.h"
 
-@interface ViewController : UIViewController
+@implementation Pessoa2
+
 
 
 @end
-

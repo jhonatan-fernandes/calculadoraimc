@@ -15,6 +15,8 @@
 		F3E22B591D077F1300610814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3E22B571D077F1300610814 /* LaunchScreen.storyboard */; };
 		F3E22B641D077F1300610814 /* TP3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B631D077F1300610814 /* TP3Tests.m */; };
 		F3E22B6F1D077F1300610814 /* TP3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B6E1D077F1300610814 /* TP3UITests.m */; };
+		F3E22B7E1D077FEE00610814 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B7D1D077FEE00610814 /* Pessoa.m */; };
+		F3E22B811D0788DF00610814 /* Pessoa2.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B801D0788DF00610814 /* Pessoa2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		F3E22B6A1D077F1300610814 /* TP3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TP3UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E22B6E1D077F1300610814 /* TP3UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TP3UITests.m; sourceTree = "<group>"; };
 		F3E22B701D077F1300610814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3E22B7C1D077FEE00610814 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
+		F3E22B7D1D077FEE00610814 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
+		F3E22B7F1D0788DF00610814 /* Pessoa2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa2.h; sourceTree = "<group>"; };
+		F3E22B801D0788DF00610814 /* Pessoa2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				F3E22B4D1D077F1300610814 /* AppDelegate.m */,
 				F3E22B4F1D077F1300610814 /* ViewController.h */,
 				F3E22B501D077F1300610814 /* ViewController.m */,
+				F3E22B7C1D077FEE00610814 /* Pessoa.h */,
+				F3E22B7F1D0788DF00610814 /* Pessoa2.h */,
+				F3E22B801D0788DF00610814 /* Pessoa2.m */,
+				F3E22B7D1D077FEE00610814 /* Pessoa.m */,
 				F3E22B521D077F1300610814 /* Main.storyboard */,
 				F3E22B551D077F1300610814 /* Assets.xcassets */,
 				F3E22B571D077F1300610814 /* LaunchScreen.storyboard */,
@@ -272,6 +282,8 @@
 			files = (
 				F3E22B511D077F1300610814 /* ViewController.m in Sources */,
 				F3E22B4E1D077F1300610814 /* AppDelegate.m in Sources */,
+				F3E22B7E1D077FEE00610814 /* Pessoa.m in Sources */,
+				F3E22B811D0788DF00610814 /* Pessoa2.m in Sources */,
 				F3E22B4B1D077F1300610814 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
