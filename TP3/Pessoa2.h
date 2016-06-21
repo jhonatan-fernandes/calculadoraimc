@@ -8,16 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Pessoa2 : NSObject {
+@interface Pessoa2 : Pessoa {
+    
+    
+    
     
 }
-
-@property(strong)NSString *nome;
-@property(strong)NSString *sobrenome;
-@property(assign)double peso;
-@property(assign)double altura;
-@property(assign)double idade;
-
 
 
 

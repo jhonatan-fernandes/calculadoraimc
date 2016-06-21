@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DFBBA5B1D19F1E700C3647D /* Pessoa2.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DFBBA5A1D19F1E700C3647D /* Pessoa2.m */; };
 		F3E22B4B1D077F1300610814 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B4A1D077F1300610814 /* main.m */; };
 		F3E22B4E1D077F1300610814 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B4D1D077F1300610814 /* AppDelegate.m */; };
 		F3E22B511D077F1300610814 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B501D077F1300610814 /* ViewController.m */; };
@@ -16,7 +17,6 @@
 		F3E22B641D077F1300610814 /* TP3Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B631D077F1300610814 /* TP3Tests.m */; };
 		F3E22B6F1D077F1300610814 /* TP3UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B6E1D077F1300610814 /* TP3UITests.m */; };
 		F3E22B7E1D077FEE00610814 /* Pessoa.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B7D1D077FEE00610814 /* Pessoa.m */; };
-		F3E22B811D0788DF00610814 /* Pessoa2.m in Sources */ = {isa = PBXBuildFile; fileRef = F3E22B801D0788DF00610814 /* Pessoa2.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DFBBA591D19F1E700C3647D /* Pessoa2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Pessoa2.h; path = ../Pessoa2.h; sourceTree = "<group>"; };
+		0DFBBA5A1D19F1E700C3647D /* Pessoa2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Pessoa2.m; path = ../Pessoa2.m; sourceTree = "<group>"; };
 		F3E22B461D077F1300610814 /* TP3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TP3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3E22B4A1D077F1300610814 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F3E22B4C1D077F1300610814 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -55,8 +57,6 @@
 		F3E22B701D077F1300610814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F3E22B7C1D077FEE00610814 /* Pessoa.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa.h; sourceTree = "<group>"; };
 		F3E22B7D1D077FEE00610814 /* Pessoa.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa.m; sourceTree = "<group>"; };
-		F3E22B7F1D0788DF00610814 /* Pessoa2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pessoa2.h; sourceTree = "<group>"; };
-		F3E22B801D0788DF00610814 /* Pessoa2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pessoa2.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,12 +112,12 @@
 				F3E22B4F1D077F1300610814 /* ViewController.h */,
 				F3E22B501D077F1300610814 /* ViewController.m */,
 				F3E22B7C1D077FEE00610814 /* Pessoa.h */,
-				F3E22B7F1D0788DF00610814 /* Pessoa2.h */,
-				F3E22B801D0788DF00610814 /* Pessoa2.m */,
 				F3E22B7D1D077FEE00610814 /* Pessoa.m */,
 				F3E22B521D077F1300610814 /* Main.storyboard */,
 				F3E22B551D077F1300610814 /* Assets.xcassets */,
 				F3E22B571D077F1300610814 /* LaunchScreen.storyboard */,
+				0DFBBA591D19F1E700C3647D /* Pessoa2.h */,
+				0DFBBA5A1D19F1E700C3647D /* Pessoa2.m */,
 				F3E22B5A1D077F1300610814 /* Info.plist */,
 				F3E22B491D077F1300610814 /* Supporting Files */,
 			);
@@ -283,7 +283,7 @@
 				F3E22B511D077F1300610814 /* ViewController.m in Sources */,
 				F3E22B4E1D077F1300610814 /* AppDelegate.m in Sources */,
 				F3E22B7E1D077FEE00610814 /* Pessoa.m in Sources */,
-				F3E22B811D0788DF00610814 /* Pessoa2.m in Sources */,
+				0DFBBA5B1D19F1E700C3647D /* Pessoa2.m in Sources */,
 				F3E22B4B1D077F1300610814 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -510,6 +510,7 @@
 				F3E22B751D077F1300610814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3E22B761D077F1300610814 /* Build configuration list for PBXNativeTarget "TP3Tests" */ = {
 			isa = XCConfigurationList;
@@ -518,6 +519,7 @@
 				F3E22B781D077F1300610814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3E22B791D077F1300610814 /* Build configuration list for PBXNativeTarget "TP3UITests" */ = {
 			isa = XCConfigurationList;
@@ -526,6 +528,7 @@
 				F3E22B7B1D077F1300610814 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

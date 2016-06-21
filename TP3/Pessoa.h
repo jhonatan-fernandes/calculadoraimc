@@ -8,23 +8,20 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Pessoa : NSObject {
+@interface Pessoa : NSObject
 
-NSString * nome;
-    double peso;
-    double altura;
-    double idade;
-}
+@property(strong) NSString * nome;
+@property(assign) float peso;
+@property(assign) float altura;
+@property(assign) int idade;
+@property(strong) NSString * genero;
+@property(nonatomic) float imc;
 
--(void)setNome:(NSString *)novoNome;
--(NSString *)nome;
--(void)setPeso:(double)novoPeso;
--(double)peso;
--(void)setAltura:(double)novoAltura;
--(double)altura;
--(void)setIdade:(double)novoIdade;
--(double)idade;
-
+-(NSString *)getNome;
+-(float)getPeso;
+-(float)getAltura;
+-(float)getIdade;
+-(NSString *)getimc;
 
 
 @end

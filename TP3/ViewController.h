@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "Pessoa.h"
+#import "Pessoa2.h"
 @interface ViewController : UIViewController
+
+
 
 
 @end
